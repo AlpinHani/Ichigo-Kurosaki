@@ -192,8 +192,8 @@ case 'menu': case 'help': case '?': {
 ╚════════
   `
   let but = [
-  {urlButton: {displayText: 'Source Code ♨️',url: 'https://github.com/NzrlAfndi/Ichigo-Kurosaki'}}, 
-  {urlButton: {displayText: 'Website 🔗',url: 'https://linktr.ee/nzrlafndi'}}, 
+  {urlButton: {displayText: 'Github ♨️',url: 'https://github.com/AlpinHani'}}, 
+  {urlButton: {displayText: 'Instagram 🔗',url: 'https://instagram.com/en4y.pin'}}, 
   {"quickReplyButton": {"displayText": "Donasi 🗂️","id": `donasi`},},
   {"quickReplyButton": {"displayText": "Owner 👦","id": "owner"},},
   {"quickReplyButton": {"displayText": "Status Bot ⌚","id": `ping`}}
