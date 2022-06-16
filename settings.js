@@ -9,10 +9,10 @@ const fs = require('fs')
 const chalk = require('chalk')
 
 //Ubah Disini
-global.ownerNumber = ['6285609233482','6287877173955','0']
-global.ownerName = 'Fandyyy X All Creator'
-global.packname = 'Ichigo Kurosaki'
-global.author = 'Whatsapp Bot 2022'
+global.ownerNumber = ['6282287750102','0']
+global.ownerName = 'Alpin'
+global.packname = 'En4y.Pin'
+global.author = 'Follow'
 global.prefa = ['','!','.','#','!'] //Ilangin Prefix Yang '' Kalau Gamau No Prefix
 global.sessionName = 'sesi'
 
@@ -23,7 +23,7 @@ botAdmin: 'Bot Not Admin!',
 botOwner: 'You Are Not My Owner!',
 group: 'Only Group!',
 private: 'Only Private Chat',
-wait: 'Loading...',
+wait: 'Jangan kmana-mana ya Kak...',
 done: 'Done!'
 }
 
