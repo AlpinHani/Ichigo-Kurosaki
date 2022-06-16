@@ -30,7 +30,7 @@ font: 'block',
 gradient: ['red','magenta'],
 align: 'center'
 })
-cfonts.say('Whatsapp Bot By Fandyyy',{
+cfonts.say('Whatsapp Bot By Alpin',{
 font: 'console',
 gradient: ['red','magenta'],
 align: 'center'
@@ -172,7 +172,7 @@ ichi.sendContact = async (jid, kon, quoted = '', opts = {}) => {
   for (let i of kon) {
   list.push({
   displayName: await ichi.getName(i + '@s.whatsapp.net'),
-  vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${await ichi.getName(i + '@s.whatsapp.net')}\nFN:${await ichi.getName(i + '@s.whatsapp.net')}\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:Ponsel\nitem2.EMAIL;type=INTERNET:fbotzyt@gmail.com\nitem2.X-ABLabel:Email\nitem3.URL:https://instagram.com/_nzrlafndi\nitem3.X-ABLabel:Instagram\nitem4.ADR:;;Indonesia;;;;\nitem4.X-ABLabel:Region\nEND:VCARD`
+  vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${await ichi.getName(i + '@s.whatsapp.net')}\nFN:${await ichi.getName(i + '@s.whatsapp.net')}\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:Ponsel\nitem2.EMAIL;type=INTERNET:hani@gmail.com\nitem2.X-ABLabel:Email\nitem3.URL:https://instagram.com/en4y.pin\nitem3.X-ABLabel:Instagram\nitem4.ADR:;;Indonesia;;;;\nitem4.X-ABLabel:Region\nEND:VCARD`
   })
   }
   ichi.sendMessage(jid, { contacts: { displayName: `${list.length} Kontak`, contacts: list }, ...opts }, { quoted })
